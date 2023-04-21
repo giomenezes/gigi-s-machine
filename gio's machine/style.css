@@ -1,0 +1,212 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://thumbs.gfycat.com/CorruptLinearElk-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #e90b16;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0px 0px 25px #ff002b;
+}
+
+ul {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li,a {
+  color: #ff002b;
+  text-decoration: none;
+  color: #ff002b;
+  transition: all 0.3s ease-out;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.div_container {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.div_header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  border-bottom: 3px #32b0cd solid;
+  box-shadow: 0px 0px 25px #32b0cd;
+}
+
+.div_header .div_container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  font-weight: 800;
+}
+
+p {
+  width: 500px;
+  font-size: 30px;
+  text-align: center;
+}
+
+input {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.div_banner {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  color: white;
+}
+
+.div_banner .div_container {
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.div_social .div_container {
+  margin: auto;
+  padding: 30px 30px 100px 30px;
+  justify-content: space-around;
+}
+
+.div_social .div_container img {
+  width: 150px;
+  height: 150px;
+
+}
+
+.div_container .card {
+  padding: 10px;
+  background-color: #72a6eb83;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #faacac;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.slider:before {
+  border-radius: 20px;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(223, 234, 255);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+input:checked+.slider {
+  background-color: #ff1313;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #500000;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(23px);
+  -ms-transform: translateX(23px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 25px;
+}
+
+#demo2,
+#demo3,
+#demo4 {
+  display: flex;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 0px 0px 5px white;
+}
+
+footer {
+  display: flex;
+  background-size: cover;
+  background-color: #329ccdd2;
+  justify-content: center;
+  border-top: 3px #32b0cd solid;
+  box-shadow: 0px 0px 25px #32b0cd;
+}
+
+.div_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.p1, .p2 {
+  font-size: 15px;
+  align-items: center;
+  display: table-column;
+}
+
+.div_footer .p1 a {
+  text-decoration: none;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexadecimal - Conversion Machine</title>
+    <link rel="icon" type="image/x-icon" href="assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="hexadecimal.js"></script>
+
+</head>
+
+<body>
+    <div class="div_header">
+        <div class="div_container">
+            <h1>Conversion Machine</h1>
+            <ul>
+                <li>
+                    <a href="decimal.html">
+                    Decimal
+                    </a>
+                </li>
+                <li>
+                    <a href="binario.html">
+                        Binário
+                    </a>
+                </li>
+                <li>
+                    <a href="octal.html">
+                        Octal
+                    </a>
+                </li>
+                <li style="transform: none;">
+                        Hexadecimal
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="div_banner">
+        <div class="div_container">
+            <p>Converta <span>qualquer</span> número para decimal, binário, octal ou hexadecimal! <br> <br> <input
+                    type="text" id="demo1" oninput="verificar()" autofocus placeholder="Insira o número em hexadecimal que deseja converter"> <span style="font-size: 10px; font-weight: lighter;">Para atualizar um valor, clique no botão novamente!</span></p>
+        </div>
+    </div>
+
+    <div class="div_social">
+        <div class="div_container">
+            <div class="card">
+                <img src="assets/2.png" alt="Binário">
+                <h2>Binário</h2>
+                <label class="switch">
+                    <input onclick="aparecer_bin()" type="checkbox">
+                    <span class="slider"></span>
+            </label>
+            <div id="demo4"></div>
+            </div>
+
+            <div class="card">
+                <img src="assets/8.png" alt="Octal">
+                <h2>Octal</h2>
+                <label class="switch">
+                    <input onclick="aparecer_octal()" type="checkbox">
+                    <span class="slider"></span>
+            </label>
+            <div id="demo2"></div>
+            </div>
+
+            <div class="card">
+                <img src="assets/10.png" alt="Decimal">
+                <h2>Decimal</h2>
+                <label class="switch">
+                    <input onclick="aparecer_decimal()" type="checkbox">
+                    <span class="slider"></span>
+            </label>
+            <div id="demo3"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="div_footer">
+            <p class="p1">
+                Desenvolvido por: <br>
+                Giovanna Vilas Boas <br>
+                <a href="mailto:">giovanna.rodrigues@sptech.school</a><br>
+                1CCO - 2023
+            </p>
+
+            <p class="p2">Orientado por: <br>
+                Professora Marise Miranda <br>
+                Arquitetura Computacional <br>
+                Mais informações: <a href="mailto:">marise.miranda@sptech.school</a> 
+            </p>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
